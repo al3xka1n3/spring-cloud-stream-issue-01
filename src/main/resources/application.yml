@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: fun;sup
+      bindings:
+        fun-in-0:
+          destination: my-fun-in
+        fun-out-0:
+          destination: my-fun-out
+        sup-out-0:
+          destination: my-sup-out
